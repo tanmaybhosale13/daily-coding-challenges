@@ -32,7 +32,7 @@ public class ArrayEvenOddOrder {
 
 
           for(int result:orderedElements){  // returning new array
-            System.out.print(" "+result);
+            System.out.print(" "+result);  // printing the result of ordered array 
           }
            
 

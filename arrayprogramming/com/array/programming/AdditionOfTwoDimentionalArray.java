@@ -17,14 +17,14 @@ public class AdditionOfTwoDimentionalArray {
             // inner loop indicate column  
             for(int j=0;j<a[i].length;j++){
 
-                int sum= a[i][j]+b[i][j];
+                int sum= a[i][j]+b[i][j];  
 
-                System.out.print(" "+sum);
+                System.out.print(" "+sum); // addition of two dimentional array gives result
 
 
             }
 
-            System.out.println();
+            System.out.println();   // gives result of second row from both 2D array in the next line. 
         }
 
 
