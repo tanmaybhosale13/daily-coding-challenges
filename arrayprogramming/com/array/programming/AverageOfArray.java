@@ -12,13 +12,13 @@ public class AverageOfArray {
 
         for(int i=0;i<num.length;i++){
 
-            sum=sum+num[i];
+            sum=sum+num[i]; // sum of elements
         }
 
   
 
 
-        float averageOfArray=(float)sum/num.length;
+        float averageOfArray=(float)sum/num.length; // average of elements
 
         System.out.println("average of array is :"+averageOfArray);
 
