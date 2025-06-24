@@ -1,87 +1,80 @@
 
-## ✅ Revised & Logically Complete Coding Problem Solving Framework
 
-### **1. Understand the Problem Clearly**
+### ✅ **Final Simplified & Actionable Version**
 
-* ✅ What is the **input** and what is the **output**?
-* ✅ What are the **constraints**? (e.g., input size, time/space limits)
-* ✅ Are there any **edge cases**? (empty input, duplicates, special characters, etc.)
+#### 🧩 **6-Step Coding Problem Solving Template (Easy to Remember)**
 
-**Improvement**: Be explicit about *what must always be true (invariants)* and *what edge cases must be handled*.
+> Use this version as a **mental checklist** in interviews or practice sessions.
 
 ---
 
-### **2. Work Through Examples**
+### 🚀 **1. Understand the Problem**
 
-* Manually walk through **simple test cases** to understand behavior.
-* Include **normal cases**, **edge cases**, and **invalid inputs** if applicable.
+* What is the **input** and **expected output**?
+* Are there **constraints or edge cases**?
 
-**Improvement**: Write down what you expect the answer to be for each.
-
----
-
-### **3. Identify the Core Logic**
-
-* What kind of problem is it? (sorting? counting? searching?)
-* What is the **invariant** or pattern?
-* Can the problem be **mapped** to a known technique?
-
-**New**: Classify the problem (e.g., sliding window, two-pointer, recursion).
+👉 *“What’s being asked?”*
 
 ---
 
-### **4. Break It Down into Subproblems**
+### 🔍 **2. Walk Through Examples**
 
-* What are the **minimal steps** required?
-* Which steps can be reused or modularized?
+* Try **small test cases** by hand.
+* Include **normal + tricky cases** (e.g. empty, duplicates, limits).
 
-**Refinement**: Define the inputs/outputs of each subproblem clearly.
-
----
-
-### **5. Choose the Right Tools and Data Structures**
-
-* Do you need a list, set, dict, heap, etc.?
-* Can built-in functions (e.g., `sorted`, `Counter`) help?
-
-**New**: This helps avoid reinventing the wheel and ensures efficiency.
+👉 *“What should the output be?”*
 
 ---
 
-### **6. Write the Code**
+### 🎯 **3. Identify the Pattern**
 
-* Translate your plan into working code.
-* Be **clean**, **modular**, and **comment** where needed.
+* What type of problem is this?
+  (*e.g., search, sort, count, recursion, dynamic programming, etc.*)
 
----
-
-### **7. Test and Debug Thoroughly**
-
-* Use your examples to test.
-* Try edge cases and extreme inputs.
-* Use print/log statements or a debugger to trace logic.
+👉 *“How does the logic flow?”*
 
 ---
 
-### **8. Reflect and Optimize**
+### 🧱 **4. Break It Down**
 
-* Is your code efficient (time/space complexity)?
-* Can you simplify or improve it?
-* Could another approach be better?
+* Break the solution into **logical steps** or subproblems.
+* Define how to solve each one.
 
----
-
-### 🧠 Final Version of Your List (Corrected)
-
-1. **Understand the problem**: Input, output, constraints, edge cases
-2. **Work through examples**: Normal + edge case manually
-3. **Identify what needs to be done**: Recognize the pattern
-4. **Break into subproblems**: Define each logical step
-5. **Choose tools & structures**: Pick optimal methods
-6. **Write the code**: Clean and correct
-7. **Test and debug**: Use both expected and unexpected inputs
-8. **Reflect and optimize**: Simplify or improve if needed
+👉 *“What smaller steps can I write code for?”*
 
 ---
 
-Would you like this as a reusable template or checklist for coding sessions?
+### 💻 **5. Code the Solution**
+
+* Write clean, readable code.
+* Use proper data structures or built-in functions where possible.
+
+👉 *“Translate plan to code.”*
+
+---
+
+### 🧪 **6. Test & Debug**
+
+* Run your earlier examples.
+* Add edge cases and fix issues.
+
+👉 *“Does it work for all cases?”*
+
+---
+
+### 🧠 Summary (Quick List):
+
+```
+1. Understand
+2. Examples
+3. Pattern
+4. Break it down
+5. Code
+6. Test
+```
+
+---
+
+### ✅ Your Example (Anagram) Fits Well:
+
+> For "listen" and "silent" — you walk through an example, identify the need to sort or count chars, then code and test.
