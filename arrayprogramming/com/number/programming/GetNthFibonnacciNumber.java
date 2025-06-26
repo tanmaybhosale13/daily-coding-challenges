@@ -1,6 +1,9 @@
 package arrayprogramming.com.number.programming;
 
 public class GetNthFibonnacciNumber {
+
+   // write a program to get the nth fibonacci number based on position
+   // fibonacci sequence start from 1 1 2 3 5 8 
    public static void main(String[] args) {
     
 
