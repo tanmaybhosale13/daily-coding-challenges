@@ -1,4 +1,4 @@
-package arrayprogramming.com.array.programming;
+
 
 //Write a program to find average of array. 
 public class AverageOfArray {
