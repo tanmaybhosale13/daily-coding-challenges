@@ -8,23 +8,29 @@ public class ReversedString {
     public static void main(String[] args) {
 
     
-       Scanner sc=new Scanner(System.in);
-       System.out.println("Enter a string for reversed");
-        String input=sc.nextLine();
-
-        StringBuilder revString=new StringBuilder();
-
-        for(int i=input.length()-1;i>=0;i--){
-
-            revString.append(input.charAt(i));
-
-        }
+      Scanner sc= new Scanner(System.in);
+      System.out.println("Enter a input to reversed");
+       String inputString=sc.next();
 
 
-        System.out.println("Reversed String is :"+revString);
+      StringBuilder reversedString=new StringBuilder();
 
 
-        sc.close();
+      for(int i=inputString.length()-1;i>=0;i--){
+
+
+         char output= inputString.charAt(i);
+
+         reversedString.append(output);
+
+
+        
+      }
+
+      System.out.println(reversedString);
+
+      sc.close();
+       
 
     }
 }
