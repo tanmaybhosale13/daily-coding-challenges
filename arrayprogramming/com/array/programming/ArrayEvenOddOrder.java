@@ -8,33 +8,31 @@ public class ArrayEvenOddOrder {
          
           int[] num={ 76,13,56,17,8,9,10};
 
+          int[] orderedArray=new int[num.length];
 
-          int[] orderedElements=new int[num.length];
 
-          int evenIndex=0;
-          int oddIndex=num.length-1;
+          int even=0;
+          int odd=num.length-1;
+
           for(int i=0;i<num.length;i++){
 
+            if(num[i]%2==0){
 
-             if(num[i]%2==0){
+               orderedArray[even]=num[i];
+               even++;
+            }else{
 
-                orderedElements[evenIndex]=num[i];  // adding element at the start of new array
-                evenIndex++;
-             }else{
-
-                orderedElements[oddIndex]=num[i]; // adding element at the end of new array
-                oddIndex--;
-             }
-
-
-
-          }
+               orderedArray[odd]=num[i];
+               odd--;
+            }
+         
+         }
 
 
-          for(int result:orderedElements){  // returning new array
-            System.out.print(" "+result);  // printing the result of ordered array 
-          }
-           
+         for(int result:orderedArray){
+
+            System.out.println(result);
+         }
 
 
 

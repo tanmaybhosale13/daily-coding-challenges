@@ -4,6 +4,7 @@
 public class AdditionOfTwoDimentionalArray {
 
 
+    // pattern used is matrix traversal (2D array)
      // write a program for Addition of two dimentional array
     public static void main(String[] args) {
          
